@@ -1,0 +1,14 @@
+h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+canvas{
+    animation-name: sunset;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes sunset {
+    from {box-shadow: 1px 1px 38px hotpink;}
+    to {box-shadow: 1px 1px 38px rgb(151, 6, 187);}
+
+}
